@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css2?family=Jeju+Hallasan&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+        <link rel = "icon" type = "image/png" sizes = "32x32" href = "images/favicon-fire.png" />
+        <title>Cuisinang Capampangan: Manyaman!</title>
+        <link rel="stylesheet" href = "css/styles.css" type = "text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Cuisinang Capampangan: Manyaman!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="foods.html">Foods</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <img class = "contact-picture" src = "images/contact-img.png" alt = "collage of foods">
+
+        <h2 class="experience">Tell us about your experience. Send us a message!</h2>
+        <div id = "formcontainer">
+        <form id = "survey" name = "survey" method = "post" action="javascript:formsubmit.js();">
+        <fieldset class = "labelfloatleft"><legend>Contact Information</legend>
+            <label for = "fullname">Full Name: </label>
+            <input type = "text" name = "fullname" id = "fullname" class = "text" required/> 
+    
+            <label for = "emailaddress">Email: </label>
+            <input type = "text" name = "emailaddress" id = "emailaddress" size = "40" class = "text" placeholder = "name@gmail.com" required/> 
+
+            <label for = "message">Message: </label>
+            <textarea name = "message" id = "message" >
+
+            </textarea>
+        </fieldset>
+
+        <input type = "submit" value = "Submit" class = "button"/>
+        <input type = "reset" value = "Reset" class = "button"/>
+        </form>
+        </div>
+
+        <footer>
+            <div class="social">
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <img src="images/facebook-logo.png" alt="black and white Facebook logo"/>
+                    </a>
+                    <span class="fb-name">Cuisinang Capampangan: Manyaman!</span>
+                </div>
+                <div class="social-item">
+                    <a href="#" target="_blank">
+                        <img src="images/instagram-logo.png" alt="black and white Instagram logo"/>
+                    </a>
+                    <span class="insta-name">CuisinangCapampangan_Manyaman</span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Copyright 2024. All rights reserved. Created by Puno, Kimberly Clarisse P.</p>
+            </div>
+        </footer>
+    </body>
+</html>

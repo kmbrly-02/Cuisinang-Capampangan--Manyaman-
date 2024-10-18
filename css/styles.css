@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Jeju+Hallasan&display=swap');
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1;
+    width: 100%;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #850101;
+    color: #FFF1C5;
+    font-size: 13px;
+    padding: 10px;
+    font-family: JejuHallasan;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px; 
+    font-family: Montserrat Alternates;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF1C5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #850101;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #000;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+.ganda {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    align-items: center;
+}
+
+.left-image {
+    width: 40%; 
+    float: left; 
+    border-radius: 50px;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Merriweather";
+}
+
+.content h2 {
+    text-align: justify;
+    font-size: 110px;
+    margin-bottom: 1rem;
+    color: #850101;
+}
+
+.content p {
+    font-size: 70%;
+    color: #333; /* Adjust text color for readability */
+    line-height: 1.5;
+    font-family: "Lato"; 
+    text-align: justify;
+}
+
+.menu-item {
+    width: 15%;
+    margin-bottom: 70px;
+    margin-right: 8%;
+    margin-left: 9%;
+    background-color:#850101;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    grid-template-columns: auto;
+    display: inline-grid;
+    font-family: "Inter";
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.menu-item:hover,
+.menu-item:active {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #850101;
+    border-radius: 10%;
+}
+
+.menu-item h3 {
+    font-size: 28px;
+    margin: 15px;
+    text-align: center;
+    color: #FFF1C5;
+    font-family: Inter;
+}
+
+.menu-item p {
+    font-size: 15px;
+    padding: 0 15px 15px;
+    color: #ffffff;
+    text-align: justify;
+    position: relative;
+}
+
+/* .menu-item h4 {
+    font-size: 18px;
+    padding: 0 17px 17px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    line-height: 0.6;
+} */
+
+.cuisine, .dessert {
+    color: #333;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+/* .lengua, .sisig, .lechon-baboy, .pindang-damulag, .menudo, .kilayin, .bibingka, .biko, .macapuno-tarts, .puto-bumbong, .tibok-tibok, .ube-halaya {
+    width: 50%;
+    margin-bottom: 60px;
+    margin-right: 8%;
+    margin-left: 9%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+} */
+
+.recipe-title {
+    font-family: "Merriweather";
+    font-size: 40px;
+    text-align: center;
+}
+
+.title, .procedure {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1rem;
+    font-family: "Merriweather";
+}
+
+.time-container {
+    float: right;
+    text-align: right; /* Align text to the right */
+    width: 350px; /* Set a fixed width for better alignment */
+    margin-top: -350px;
+    margin-right: 25px;
+    font-family: "Merriweather";
+    font-size: 15px;
+}
+.time-title {
+    font-size: 35px; /* Title font size */
+    font-weight: bold; /* Title weight */
+    text-align: center;
+    font-family: "Merriweather";
+}
+
+.time {
+    list-style-type: disc; /* Remove bullets from the list */
+    padding-left: 0; /* Remove left padding */
+    font-size: 13px; /* Adjust font size for readability */
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: "Merriweather";
+}
+
+.time li {
+    font-family: "Merriweather";
+    margin-bottom: 5px; /* Space between list items */
+}
+
+.jv {
+    font-size: 25px;  
+    font-family: "Merriweather";
+}
+
+.jovi {
+    border: 42px solid #850101; 
+    border-radius: 10%;
+    width: 50%;
+    display: block;
+    margin: 25px auto auto auto;
+}
+
+h2, p, ul, li, ol {
+    text-decoration: none;
+  }
+
+/* Style the recipe title */
+/* .recipe {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
+} */
+
+/* Style the ingredients and time lists */
+.ingredients {
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-family: "Merriweather";
+}
+
+/* Style the list items within the ingredients and time lists */
+.ingredients li, .time li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    font-family: "Merriweather";
+}
+
+/* Style the procedure section */
+/* .procedure ol {
+    padding-left: 20px;
+}
+
+.procedure li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: justify;
+} */
+
+h3 p {
+    text-align: justify;
+}
+
+
+.about-content {
+    margin-top: 30px;
+    margin-bottom: 40px; /* Add space below the about content */
+    margin-left: 5px;
+}
+
+.about-content p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+    font-family: "Lato";
+}
+
+.about-content h4 {
+    font-family: "Merriweather";
+}
+
+.awaits-list {
+    margin-left: 20px; /* Indent the list */
+    line-height: 1.6; /* Increase line height for better readability */
+    font-size: 20px; /* Adjust font size */
+    text-align: justify;
+    margin-left: 10px;
+    font-family: "Lato";
+}
+
+h3 {
+    font-size: 40px; /* Adjust the font size for h3 */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+h4 {
+    font-size: 35px; /* Adjust the font size for h4 */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Menu */
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+} */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        left: -250px;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        background-color: #850101;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 2rem;
+        transition: left 0.3s ease-in-out;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    nav ul.show {
+        left: 0;
+    }
+}
+
+.ganda {
+    text-align: center;
+    padding: 2rem;
+}
+
+.left-image {
+    width: 100%;
+    max-width: 600px; /* Control the size of the image */
+    height: auto;
+    display: block;
+    margin: 1.5% auto 1.5%; /* Center the image with margin below */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: JejuHallasan;
+}
+
+.content h2 {
+    font-size: 50px;
+    margin-bottom: 1%;
+    color: #850101; /* Adjust color if necessary */
+}
+
+.content p {
+    font-size: 25px;
+    color: #333; /* Adjust text color for readability */
+    line-height: 1.6;
+}
+
+.contact-picture {
+    display: block;
+    width: 70%;
+    margin: 1% auto 1% auto;
+}
+
+form {
+    width: 0 auto;
+    margin: 0 25% 0 25%;
+    font-family: "Lato";
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.experience {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button {
+    color: #FFF1C5;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px;
+    background-color: #850101;
+    border: 1px solid #305704;
+    display: inline;
+    margin: 1% 0 0 1%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF1C5;
+    font-size: 25px;
+    padding: 1%;
+}
+footer {
+    width: 100%; /* Full width */
+    background-color: #850101; /* Dark red background */
+    color: #FFF1C5; /* Text color */
+    padding: 10px 0 1px; /* Padding for top and bottom */
+    position: relative; /* Allows for stacking with other content */
+    margin-top: 28px; /* Pushes the footer down */
+}
+
+.social {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align social items */
+    align-items: center; /* Vertically center align items */
+    margin-bottom: 10px; /* Space between social items and copyright */
+}
+
+.social-item {
+    display: flex; /* Use flexbox for each social item */
+    align-items: center; /* Vertically align items */
+    margin: 0 15px; /* Space between social items */
+}
+
+.social img {
+    width: 30px; /* Set a width for the logo images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and name */
+}
+
+.fb-name, .insta-name {
+    color: #FFF1C5; /* Text color for social names */
+    font-size: 25px; /* Font size for the names */
+    font-family: 'Merriweather'; /* Apply Lato font */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.copyright {
+    text-align: center; /* Center align the copyright text */
+    color: #333; /* Text color for copyright */
+    font-size: 16px; /* Font size for copyright */
+}
+
